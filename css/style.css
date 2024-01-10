@@ -1,3 +1,7 @@
 .introPics {
     display: flex;
 }
+
+.introText {
+    position: absolute;
+}
