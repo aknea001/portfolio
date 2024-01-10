@@ -1,5 +1,9 @@
-const button = document.getElementById("button")
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-button.addEventListener("click", function () {
-    window.location = "./about"
-})
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
