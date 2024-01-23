@@ -1,7 +1,3 @@
-.introPics {
-    display: flex;
-}
-
 .backgroundPics {
     position: absolute;
     background-color: #483d8b;
@@ -20,7 +16,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: baseline;
+    margin-top: 300px;
+}
+
+.knapp {
+    border-radius: 5px 0;
+    padding: 1rem;
+    width: 150px;
+    background-color: #87CEEB;
+    margin-bottom: 10px;
+}
+
+.knapp:hover {
+    transition: 300ms;
+    width: 175px;
 }
 
 button {
