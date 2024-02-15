@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .backgroundPics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     position: absolute;
     background-color: #483d8b;
     width: 100%;
-    height: 700px;
+    height: 100%;
     top: -100px;
     left: 0;
     z-index: -1;
+}
+
+.backgroundPics img {
+    width: 100%;
+}
+
+.introPic {
+    width: 100px;
 }
 
 .introText {
